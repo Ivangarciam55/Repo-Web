@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Registro de usuario para acceso al CETI</h1>
+    <form action="registro.html">
+        <main>
+            <div>
+                <input type="text" placeholder="Nombre" required/>
+            </div>
+            <div>
+                <input type="email" placeholder="Correo electronico" required/>
+            </div>
+            <div>
+                <input type="password" placeholder="Contraseña" required/>
+            </div>
+            <div>
+                <input type="radio" value="Masculino" id="Masculino"/><label for="Masculino">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" value="Femenino" id="Femenino"/><label for="Femenino">Femenino</label>
+            </div>
+            <div>
+                <input type="radio" value="Otro" id="Otro"/><label for="Otro">Otro</label>
+            </div>
+            <div>
+                <label>Fehca de nacimiento</label>
+                <input type="date" value="fecha" placeholder="Fecha de nacimiento" id="fecha"/>
+            </div>
+            <div>
+                <label for="pais">Pais</label>
+                <select name="pais" id="pais">
+                    <option value="Mexico">Mexico</option>
+                    <option value="usa">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Uzbekistan">Uzbekistan</option>
+                    <option value="Yugoslavia">Yugoslavia</option>
+                </select>
+            </div>
+            <div>
+                <label for="suscription">Suscribir al boletin</label>
+                <input type="checkbox" name="suscription" id="suscription">
+            </div>
+            <div>
+                <textarea name="comentarios" id="comentarios" rows="10" cols="100" placeholder="Escribe tus comentarios"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+            <div>
+                <input type="reset" name="Reset" id="reset">
+            </div>
+        </main>
+    </form>
+</body>
+</html>

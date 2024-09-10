@@ -1,0 +1,32 @@
+#titulo{
+    text-align: center;
+    color: #B76D68;
+}
+
+body{
+    background-color: #121420;
+    color: #403F4C;
+}
+
+#barra {
+    width: 100%;
+    background-color: #1B2432;
+    text-align: center;
+}
+
+#barra ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#barra ul li {
+    padding: 15px 20px;
+}
+
+#barra ul li a {
+    color: #B76D68;
+    text-decoration: none;
+}
